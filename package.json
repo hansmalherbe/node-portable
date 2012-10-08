@@ -1,0 +1,22 @@
+{ 
+	"name" : "portable", 
+	"version" : "0.1.0", 
+	"description" : "Facade for handling Node API changes.", 
+	"tags" : ["dependency", "warning", "version", "API"], 
+	"author" : "Hans Malherbe <hans.malherbe@gmail.com>", 
+	"repository" : { 
+		"type" : "git", 
+		"url" : "https://github.com/hansmalherbe/node-portable.git"
+	}, 
+	"bugs" : { 
+		"url" : "https://github.com/hansmalherbe/node-portable/issues" 
+	}, 
+	"engines" : ["node >= 0.6"], 
+	"main" : "./main", 
+	"scripts": { 
+		"test": "node tests/run.js" 
+	},
+	"dependencies": {
+		"semver": "*"
+	}
+}
